@@ -1,0 +1,7 @@
+km=float(input('quantos KM será a sua viagem?:'))
+n=km*0.50
+if  km<=200:
+    print('continue acelerando que vc vai ver.',n,'R$')
+else:
+     n2=km*0.45
+     print('vc vai pagar esse valor:',n2,'R$')
